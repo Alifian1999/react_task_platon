@@ -1,0 +1,51 @@
+.divider-before{
+    min-height: 50px;
+    border-left: 3px solid rgb(191, 181, 181);
+    display: block;
+    margin: 0 20px;
+}
+
+.divider-after{
+    min-height: 50px;
+    border-left: 3px solid rgb(59,130,246);
+    display: block;
+    margin: 0 20px;
+}
+
+.waves-side-pendaftaran{
+    position: relative;
+    overflow: hidden;
+}
+
+.waves-side-pendaftaran::before{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -10%;
+    left: 20%;
+    z-index: -1;
+    background: url('../../images/wave-side.svg') 0 0 repeat;
+    transform: rotate(270deg);
+    background-repeat: no-repeat;
+    z-index: -100;
+  }
+
+  .waves-side-register{
+    position: relative;
+    overflow: hidden;
+  }
+
+  .waves-side-register ::before{
+    content: "";
+    position: absolute;
+    width: 200%;
+    min-height: 200%;
+    top: 80%;
+    left: 10%;
+    z-index: -1;
+    background: url('../../images/wave-side.svg') 0 0 repeat;
+    transform: rotate(270deg);
+    background-repeat: no-repeat;
+    z-index: -100;
+  }

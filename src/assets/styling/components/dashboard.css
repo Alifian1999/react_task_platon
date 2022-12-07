@@ -1,0 +1,7 @@
+.dashboard-right{
+    box-shadow: 0px 1px 1px 2px whitesmoke;
+}
+
+.active-menu{
+    border-left: 6px solid rgb(108, 145, 218);
+}
